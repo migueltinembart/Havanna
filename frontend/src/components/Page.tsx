@@ -1,5 +1,9 @@
-import Header from './Header';
+import Home from '~/pages/Home';
 
 export default function Page(): JSX.Element {
-  return <div>test</div>;
+  return (
+    <div className="flex flex-1">
+      <Home></Home>
+    </div>
+  );
 }
